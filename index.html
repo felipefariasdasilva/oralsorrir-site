@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO PRIMARY -->
+  <title>Oral Sorrir | Dentista em São Vicente SP — Dra. Ingrid & Dra. Sarah</title>
+  <meta name="description" content="Clínica odontológica nota 5★ no Google. Implantes, clareamento, ortodontia e estética dental no centro de São Vicente SP. Agende pelo WhatsApp — atendimento humanizado.">
+  <meta name="keywords" content="dentista São Vicente, clínica odontológica São Vicente, implante dentário São Vicente, clareamento dental São Vicente, dentista centro São Vicente SP, Oral Sorrir">
+  <meta name="author" content="Oral Sorrir Clínica Odontológica">
+  <link rel="canonical" href="https://www.oralsorrir.com.br/">
+
+  <!-- GEO SEO -->
+  <meta name="geo.region" content="BR-SP">
+  <meta name="geo.placename" content="São Vicente">
+  <meta name="geo.position" content="-23.9672815;-46.3858279">
+  <meta name="ICBM" content="-23.9672815, -46.3858279">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.oralsorrir.com.br/">
+  <meta property="og:title" content="Oral Sorrir | Dentista em São Vicente SP">
+  <meta property="og:description" content="Clínica nota 5★ no Google. Implantes, clareamento e estética dental. Centro de São Vicente — Dra. Ingrid & Dra. Sarah.">
+  <meta property="og:image" content="https://www.oralsorrir.com.br/og-image.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- TWITTER -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oral Sorrir | Dentista em São Vicente SP">
+  <meta name="twitter:description" content="Clínica nota 5★ no Google. Implantes, clareamento e estética dental no centro de SV.">
+
+  <!-- SCHEMA.ORG LOCAL BUSINESS -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Oral Sorrir | Dentista em São Vicente",
+    "image": "https://www.oralsorrir.com.br/og-image.jpg",
+    "url": "https://www.oralsorrir.com.br",
+    "telephone": "+55-13-99763-5203",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Jacob Emmerich, 453",
+      "addressLocality": "São Vicente",
+      "addressRegion": "SP",
+      "postalCode": "11310-071",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.9672815,
+      "longitude": -46.3858279
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:30","closes":"18:00"}
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "61",
+      "bestRating": "5"
+    },
+    "priceRange": "$$",
+    "description": "Clínica odontológica com nota 5 estrelas no Google. Implantes, clareamento, ortodontia e estética dental no centro de São Vicente SP.",
+    "medicalSpecialty": ["Dentistry","Oral Surgery","Orthodontics","Cosmetic Dentistry"],
+    "hasMap": "https://maps.google.com/?cid=6224693165361818398"
+  }
+  </script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream:    #FAF8F4;
+      --cream2:   #F3EFE7;
+      --sand:     #E8DFD0;
+      --terra:    #C4956A;
+      --terra2:   #A87850;
+      --green:    #4A6741;
+      --green2:   #3A5233;
+      --dark:     #2A2420;
+      --mid:      #6B5E54;
+      --light:    #9C8E84;
+      --white:    #FFFFFF;
+      --radius:   16px;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans:  'DM Sans', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--cream);
+      color: var(--dark);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(250,248,244,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(196,149,106,0.15);
+      padding: 0 5%;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--dark);
+      letter-spacing: 0.02em;
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--terra); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--mid);
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--terra); }
+    .nav-cta {
+      background: var(--terra);
+      color: var(--white) !important;
+      padding: 8px 20px;
+      border-radius: 100px;
+      font-size: 0.8rem !important;
+      transition: background .2s !important;
+    }
+    .nav-cta:hover { background: var(--terra2) !important; color: var(--white) !important; }
+    .nav-hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+    .nav-hamburger span { width: 22px; height: 2px; background: var(--dark); border-radius: 2px; transition: all .3s; }
+
+    /* ─── HERO ─── */
+    #hero {
+      min-height: 100vh;
+      padding-top: 64px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 0;
+      overflow: hidden;
+    }
+    .hero-left {
+      padding: 80px 5% 80px 8%;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--terra);
+      margin-bottom: 1.5rem;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      width: 28px; height: 1px;
+      background: var(--terra);
+    }
+    .hero-h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(2.4rem, 4vw, 3.8rem);
+      font-weight: 500;
+      line-height: 1.15;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+    }
+    .hero-h1 em {
+      font-style: italic;
+      color: var(--terra);
+    }
+    .hero-sub {
+      font-size: 1rem;
+      color: var(--mid);
+      max-width: 400px;
+      margin-bottom: 2.5rem;
+      line-height: 1.7;
+    }
+    .hero-badges {
+      display: flex; gap: 12px; flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+    .badge-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--white);
+      border: 1px solid var(--sand);
+      border-radius: 100px;
+      padding: 6px 14px;
+      font-size: 0.78rem; font-weight: 500;
+      color: var(--dark);
+    }
+    .badge-pill .dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--green);
+    }
+    .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--terra);
+      color: var(--white);
+      padding: 14px 28px;
+      border-radius: 100px;
+      font-size: 0.9rem; font-weight: 500;
+      text-decoration: none;
+      transition: background .2s, transform .15s;
+      box-shadow: 0 4px 20px rgba(196,149,106,0.3);
+    }
+    .btn-primary:hover { background: var(--terra2); transform: translateY(-1px); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent;
+      color: var(--dark);
+      padding: 14px 24px;
+      border-radius: 100px;
+      border: 1.5px solid var(--sand);
+      font-size: 0.9rem; font-weight: 500;
+      text-decoration: none;
+      transition: border-color .2s, background .2s;
+    }
+    .btn-secondary:hover { border-color: var(--terra); background: rgba(196,149,106,0.06); }
+    .whatsapp-icon { width: 20px; height: 20px; fill: currentColor; }
+
+    .hero-right {
+      position: relative;
+      height: 100vh;
+      background: var(--cream2);
+      overflow: hidden;
+    }
+    .hero-img-container {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .hero-placeholder {
+      width: 100%; height: 100%;
+      background: linear-gradient(160deg, #E8DFD0 0%, #D4C5B0 50%, #C8B898 100%);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 16px;
+    }
+    .hero-placeholder svg { opacity: 0.25; }
+    .hero-placeholder p {
+      font-size: 0.8rem; color: var(--mid); opacity: 0.6;
+      font-style: italic; text-align: center; padding: 0 2rem;
+    }
+    .hero-card-float {
+      position: absolute; bottom: 40px; left: -40px;
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      box-shadow: 0 12px 40px rgba(42,36,32,0.12);
+      min-width: 200px;
+      animation: floatCard 4s ease-in-out infinite;
+    }
+    @keyframes floatCard {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    .hero-card-stars { color: #E8A830; font-size: 0.85rem; margin-bottom: 4px; }
+    .hero-card-text { font-size: 0.78rem; color: var(--mid); }
+    .hero-card-text strong { color: var(--dark); }
+
+    /* ─── SECTION BASE ─── */
+    section { padding: 90px 8%; }
+    .section-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.7rem; font-weight: 500; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--terra);
+      margin-bottom: 1rem;
+    }
+    .section-tag::before { content: ''; width: 24px; height: 1px; background: var(--terra); }
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.2;
+      color: var(--dark);
+      margin-bottom: 1rem;
+    }
+    .section-title em { font-style: italic; color: var(--terra); }
+    .section-sub { font-size: 1rem; color: var(--mid); max-width: 520px; line-height: 1.7; }
+
+    /* ─── SERVICES ─── */
+    #servicos { background: var(--white); }
+    .services-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem; flex-wrap: wrap; gap: 1rem; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background: var(--cream);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      border: 1px solid transparent;
+      transition: border-color .2s, transform .2s, box-shadow .2s;
+      cursor: default;
+    }
+    .service-card:hover {
+      border-color: var(--terra);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(196,149,106,0.12);
+    }
+    .service-icon {
+      width: 48px; height: 48px;
+      background: linear-gradient(135deg, var(--terra) 0%, var(--terra2) 100%);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 18px;
+      font-size: 1.3rem;
+    }
+    .service-name {
+      font-family: var(--font-serif);
+      font-size: 1.15rem; font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 8px;
+    }
+    .service-desc { font-size: 0.85rem; color: var(--mid); line-height: 1.6; }
+
+    /* ─── TEAM ─── */
+    #equipe { background: var(--cream2); }
+    .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 3rem; }
+    .team-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(42,36,32,0.06);
+    }
+    .team-photo {
+      height: 280px;
+      background: linear-gradient(160deg, var(--sand) 0%, var(--cream2) 100%);
+      display: flex; align-items: center; justify-content: center;
+      position: relative; overflow: hidden;
+    }
+    .team-photo-placeholder {
+      display: flex; flex-direction: column; align-items: center; gap: 12px;
+    }
+    .team-avatar {
+      width: 90px; height: 90px; border-radius: 50%;
+      background: var(--sand);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-serif);
+      font-size: 2rem; font-weight: 600; color: var(--terra);
+    }
+    .team-photo-placeholder p { font-size: 0.75rem; color: var(--light); font-style: italic; }
+    .team-info { padding: 24px 28px; }
+    .team-name {
+      font-family: var(--font-serif);
+      font-size: 1.4rem; font-weight: 600;
+      color: var(--dark); margin-bottom: 4px;
+    }
+    .team-role { font-size: 0.78rem; color: var(--terra); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 14px; }
+    .team-bio { font-size: 0.88rem; color: var(--mid); line-height: 1.7; }
+
+    /* ─── REVIEWS ─── */
+    #avaliacoes { background: var(--dark); }
+    #avaliacoes .section-tag { color: var(--terra); }
+    #avaliacoes .section-title { color: var(--white); }
+    #avaliacoes .section-title em { color: var(--terra); }
+    #avaliacoes .section-sub { color: rgba(255,255,255,0.55); }
+    .reviews-header { margin-bottom: 3rem; }
+    .rating-summary {
+      display: inline-flex; align-items: center; gap: 16px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 100px;
+      padding: 10px 24px;
+      margin-top: 1.5rem;
+    }
+    .rating-num {
+      font-family: var(--font-serif);
+      font-size: 2rem; font-weight: 600; color: var(--white);
+    }
+    .rating-stars { color: #E8A830; font-size: 1rem; letter-spacing: 2px; }
+    .rating-count { font-size: 0.8rem; color: rgba(255,255,255,0.45); }
+    .reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .review-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      padding: 24px;
+      transition: background .2s;
+    }
+    .review-card:hover { background: rgba(255,255,255,0.08); }
+    .review-stars { color: #E8A830; font-size: 0.85rem; margin-bottom: 14px; }
+    .review-text { font-size: 0.88rem; color: rgba(255,255,255,0.75); line-height: 1.7; font-style: italic; margin-bottom: 16px; }
+    .review-author { font-size: 0.78rem; color: rgba(255,255,255,0.4); font-weight: 500; }
+    .review-google { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+    .review-google span { font-size: 0.7rem; color: rgba(255,255,255,0.25); }
+
+    /* ─── FAQ ─── */
+    #faq { background: var(--cream); }
+    .faq-layout { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start; margin-top: 3rem; }
+    .faq-left { position: sticky; top: 100px; }
+    .faq-list { display: flex; flex-direction: column; gap: 2px; }
+    .faq-item {
+      border-bottom: 1px solid var(--sand);
+    }
+    .faq-question {
+      width: 100%; background: none; border: none;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 18px 0;
+      font-family: var(--font-sans);
+      font-size: 0.95rem; font-weight: 500;
+      color: var(--dark); cursor: pointer; text-align: left;
+      gap: 16px;
+    }
+    .faq-question:hover { color: var(--terra); }
+    .faq-chevron {
+      width: 20px; height: 20px; flex-shrink: 0;
+      color: var(--terra); transition: transform .3s;
+    }
+    .faq-answer {
+      font-size: 0.9rem; color: var(--mid); line-height: 1.7;
+      max-height: 0; overflow: hidden;
+      transition: max-height .35s ease, padding .35s ease;
+    }
+    .faq-item.open .faq-answer { max-height: 300px; padding-bottom: 18px; }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+
+    /* ─── LOCATION ─── */
+    #localizacao { background: var(--white); }
+    .location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; margin-top: 3rem; }
+    .location-info { display: flex; flex-direction: column; gap: 24px; }
+    .location-item { display: flex; gap: 16px; align-items: flex-start; }
+    .location-icon {
+      width: 44px; height: 44px; flex-shrink: 0;
+      background: var(--cream2);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem;
+    }
+    .location-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--terra); font-weight: 500; margin-bottom: 4px; }
+    .location-value { font-size: 0.95rem; color: var(--dark); line-height: 1.5; }
+    .location-map {
+      border-radius: var(--radius);
+      overflow: hidden;
+      height: 320px;
+      border: 1px solid var(--sand);
+    }
+    .location-map iframe { width: 100%; height: 100%; border: none; }
+
+    /* ─── CTA STRIP ─── */
+    #cta {
+      background: linear-gradient(135deg, var(--terra) 0%, var(--terra2) 100%);
+      padding: 70px 8%;
+      text-align: center;
+    }
+    #cta .section-tag { color: rgba(255,255,255,0.7); }
+    #cta .section-tag::before { background: rgba(255,255,255,0.7); }
+    #cta .section-title { color: var(--white); margin-bottom: 1rem; }
+    #cta .section-sub { color: rgba(255,255,255,0.75); margin: 0 auto 2.5rem; text-align: center; }
+    .cta-btn {
+      display: inline-flex; align-items: center; gap: 12px;
+      background: var(--white);
+      color: var(--terra2);
+      padding: 16px 36px;
+      border-radius: 100px;
+      font-size: 1rem; font-weight: 500;
+      text-decoration: none;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(0,0,0,0.2); }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--dark);
+      padding: 48px 8% 32px;
+      color: rgba(255,255,255,0.45);
+    }
+    .footer-top {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 24px;
+      flex-wrap: wrap; gap: 2rem;
+    }
+    .footer-logo {
+      font-family: var(--font-serif);
+      font-size: 1.4rem; font-weight: 600;
+      color: var(--white); letter-spacing: 0.02em;
+    }
+    .footer-logo span { color: var(--terra); }
+    .footer-logo p { font-family: var(--font-sans); font-size: 0.78rem; color: rgba(255,255,255,0.35); margin-top: 6px; font-weight: 300; }
+    .footer-links { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .footer-links a { font-size: 0.82rem; color: rgba(255,255,255,0.45); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: var(--terra); }
+    .footer-bottom { font-size: 0.75rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+    /* ─── WHATSAPP FLOAT ─── */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 200;
+      width: 58px; height: 58px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 6px 24px rgba(37,211,102,0.4);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+      animation: waPulse 3s ease-in-out infinite;
+    }
+    .wa-float:hover { transform: scale(1.08); box-shadow: 0 10px 32px rgba(37,211,102,0.5); }
+    @keyframes waPulse {
+      0%, 100% { box-shadow: 0 6px 24px rgba(37,211,102,0.4); }
+      50% { box-shadow: 0 6px 40px rgba(37,211,102,0.65); }
+    }
+    .wa-float svg { width: 30px; height: 30px; fill: white; }
+
+    /* ─── ANIMATIONS ─── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .65s ease, transform .65s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: .1s; }
+    .reveal-delay-2 { transition-delay: .2s; }
+    .reveal-delay-3 { transition-delay: .3s; }
+    .reveal-delay-4 { transition-delay: .4s; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 900px) {
+      #hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-right { height: 50vw; min-height: 280px; }
+      .hero-card-float { left: 16px; bottom: 16px; }
+      .team-grid { grid-template-columns: 1fr; }
+      .faq-layout { grid-template-columns: 1fr; gap: 0; }
+      .faq-left { position: static; margin-bottom: 2.5rem; }
+      .location-grid { grid-template-columns: 1fr; }
+      nav .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      .nav-mobile-open .nav-links {
+        display: flex; flex-direction: column;
+        position: absolute; top: 64px; left: 0; right: 0;
+        background: var(--cream); padding: 20px 8%;
+        border-bottom: 1px solid var(--sand);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        gap: 1rem;
+      }
+      .services-header { flex-direction: column; align-items: flex-start; }
+    }
+    @media (max-width: 600px) {
+      section { padding: 60px 6%; }
+      .hero-left { padding: 60px 6% 40px; }
+      .hero-btns { flex-direction: column; }
+      .btn-primary, .btn-secondary { justify-content: center; }
+      footer { padding: 40px 6% 24px; }
+      .footer-top { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">Oral <span>Sorrir</span></a>
+  <ul class="nav-links">
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#equipe">Nossa Equipe</a></li>
+    <li><a href="#avaliacoes">Avaliações</a></li>
+    <li><a href="#faq">Dúvidas</a></li>
+    <li><a href="#localizacao">Localização</a></li>
+    <li><a href="https://wa.me/5513997635203?text=Olá!+Vim+pelo+site+e+gostaria+de+agendar+uma+consulta." target="_blank" class="nav-cta">Agendar</a></li>
+  </ul>
+  <div class="nav-hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="inicio" style="padding:0;">
+  <div id="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Centro de São Vicente — SP</div>
+      <h1 class="hero-h1">
+        Seu sorriso<br>
+        merece um cuidado<br>
+        <em>verdadeiro</em>
+      </h1>
+      <p class="hero-sub">
+        Implantes, estética e ortodontia com atendimento humanizado. As Dras. Ingrid e Sarah cuidam de você com atenção, carinho e técnica de ponta.
+      </p>
+      <div class="hero-badges">
+        <div class="badge-pill"><div class="dot"></div> Nota 5★ no Google</div>
+        <div class="badge-pill"><div class="dot"></div> +60 avaliações reais</div>
+        <div class="badge-pill"><div class="dot"></div> Centro de São Vicente</div>
+      </div>
+      <div class="hero-btns">
+        <a href="https://wa.me/5513997635203?text=Olá!+Vim+pelo+site+e+gostaria+de+agendar+uma+consulta." target="_blank" class="btn-primary" rel="noopener">
+          <svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a href="tel:+5513997635203" class="btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.82 19.79 19.79 0 01.01 4.18 2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.13 6.13l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          (13) 99763-5203
+        </a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-container">
+        <div class="hero-placeholder">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#C4956A" stroke-width="1.2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+          <p>Adicione aqui uma foto<br>da clínica ou da equipe</p>
+        </div>
+      </div>
+      <div class="hero-card-float">
+        <div class="hero-card-stars">★★★★★</div>
+        <div class="hero-card-text"><strong>"Atendimento incrível."</strong><br>Paciente da Oral Sorrir</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="services-header">
+    <div>
+      <div class="section-tag reveal">O que oferecemos</div>
+      <h2 class="section-title reveal reveal-delay-1">Tratamentos para <em>cada sorriso</em></h2>
+    </div>
+    <p class="section-sub reveal reveal-delay-2" style="margin:0;">Do preventivo ao estético — cuidamos de toda a família com tecnologia e carinho.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-icon">🦷</div>
+      <div class="service-name">Implante Dentário</div>
+      <div class="service-desc">Recupere a função e a estética com implantes de titânio de alta qualidade. Avaliação gratuita.</div>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-icon">✨</div>
+      <div class="service-name">Clareamento Dental</div>
+      <div class="service-desc">Dentes mais brancos e brilhantes em uma sessão. Técnica segura, sem sensibilidade.</div>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-icon">😁</div>
+      <div class="service-name">Lentes de Contato</div>
+      <div class="service-desc">Transforme seu sorriso com lentes de porcelana ultrafinas. Resultado natural e duradouro.</div>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <div class="service-icon">🔄</div>
+      <div class="service-name">Ortodontia</div>
+      <div class="service-desc">Aparelho fixo metálico ou alinhadores invisíveis para todos os perfis e idades.</div>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-icon">🩺</div>
+      <div class="service-name">Clínica Geral</div>
+      <div class="service-desc">Consultas, limpezas, restaurações e canal. Cuidado preventivo para manter sua saúde bucal.</div>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-icon">💎</div>
+      <div class="service-name">Próteses Dentárias</div>
+      <div class="service-desc">Soluções fixas ou removíveis para repor dentes ausentes com estética e funcionalidade.</div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPE -->
+<section id="equipe">
+  <div class="section-tag reveal">Conheça quem cuida de você</div>
+  <h2 class="section-title reveal reveal-delay-1">As dentistas que fazem <em>a diferença</em></h2>
+  <p class="section-sub reveal reveal-delay-2">Profissionais comprometidas com seu bem-estar — do primeiro contato até o resultado final.</p>
+  <div class="team-grid">
+    <div class="team-card reveal">
+      <div class="team-photo">
+        <div class="team-photo-placeholder">
+          <div class="team-avatar">I</div>
+          <p>Adicione uma foto da Dra. Ingrid</p>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-name">Dra. Ingrid</div>
+        <div class="team-role">Cirurgiã-Dentista · CRO/SP</div>
+        <p class="team-bio">Reconhecida pelas pacientes pela atenção e delicadeza, a Dra. Ingrid explica cada etapa do tratamento com clareza e paciência, transmitindo confiança do início ao fim.</p>
+      </div>
+    </div>
+    <div class="team-card reveal reveal-delay-2">
+      <div class="team-photo">
+        <div class="team-photo-placeholder">
+          <div class="team-avatar">S</div>
+          <p>Adicione uma foto da Dra. Sarah</p>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-name">Dra. Sarah</div>
+        <div class="team-role">Cirurgiã-Dentista · CRO/SP</div>
+        <p class="team-bio">Competente e humana, a Dra. Sarah transmite tranquilidade durante os procedimentos. Especializada em entregar resultados de excelência com o máximo de conforto para o paciente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section id="avaliacoes">
+  <div class="reviews-header">
+    <div class="section-tag reveal">O que nossos pacientes dizem</div>
+    <h2 class="section-title reveal reveal-delay-1">Nota <em>5 estrelas</em><br>no Google</h2>
+    <p class="section-sub reveal reveal-delay-2">Avaliações reais de quem já foi atendido pelas Dras. Ingrid e Sarah na Oral Sorrir.</p>
+    <div class="rating-summary reveal reveal-delay-3">
+      <div class="rating-num">5.0</div>
+      <div>
+        <div class="rating-stars">★★★★★</div>
+        <div class="rating-count">+61 avaliações no Google</div>
+      </div>
+    </div>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Tive uma experiência maravilhosa na clínica! Fui muito bem atendida, as doutoras foram extremamente atenciosas, cuidadosas e fofas comigo. Desde o início me senti acolhida."</p>
+      <div class="review-author">Paciente da Oral Sorrir</div>
+      <div class="review-google"><span>Avaliação verificada no Google</span></div>
+    </div>
+    <div class="review-card reveal reveal-delay-1">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"A Dra. Ingrid é incrível! O atendimento é super atencioso e profissional. O consultório é super higiênico e organizado. Ela explica tudo muito bem e responde às dúvidas com muita paciência."</p>
+      <div class="review-author">Paciente da Oral Sorrir</div>
+      <div class="review-google"><span>Avaliação verificada no Google</span></div>
+    </div>
+    <div class="review-card reveal reveal-delay-2">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"As Dras Sarah e Ingrid são profissionais extremamente competentes e pacientes, que transmitem tranquilidade durante o tratamento. A clínica é limpa, aconchegante e bem localizada."</p>
+      <div class="review-author">Paciente da Oral Sorrir</div>
+      <div class="review-google"><span>Avaliação verificada no Google</span></div>
+    </div>
+    <div class="review-card reveal reveal-delay-3">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Foi o melhor atendimento que já tive em um consultório de dentista. Fui muito bem recebida e o atendimento foi nota mil!!! A Dra. Ingrid é uma profissional muito simpática que passa segurança."</p>
+      <div class="review-author">Paciente da Oral Sorrir</div>
+      <div class="review-google"><span>Avaliação verificada no Google</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-layout">
+    <div class="faq-left">
+      <div class="section-tag reveal">Tire suas dúvidas</div>
+      <h2 class="section-title reveal reveal-delay-1">Perguntas <em>frequentes</em></h2>
+      <p class="section-sub reveal reveal-delay-2" style="margin-top:1rem;">Tem alguma dúvida que não está aqui? Mande uma mensagem pelo WhatsApp — respondemos rapidinho.</p>
+      <a href="https://wa.me/5513997635203?text=Olá!+Tenho+uma+dúvida+sobre+tratamentos." target="_blank" class="btn-primary" style="margin-top:2rem; display:inline-flex;" rel="noopener">Pergunte no WhatsApp</a>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Quanto custa um implante dentário na Oral Sorrir?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-answer">O valor de um implante varia conforme o caso de cada paciente — tipo de implante, necessidade de enxerto ósseo e tipo de prótese. Oferecemos avaliação gratuita para apresentar um orçamento personalizado e parcelamento facilitado.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Vocês atendem por plano odontológico?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-answer">Atendemos de forma particular, o que nos permite oferecer total liberdade de tratamento sem as restrições dos planos. Oferecemos parcelamento facilitado em cartão de crédito para tornar o cuidado acessível.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Como agendar uma consulta?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-answer">É simples! Basta clicar no botão do WhatsApp nesta página ou ligar para (13) 99763-5203. Respondemos rapidamente e encontramos o melhor horário para você.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          A clareamento dental causa sensibilidade?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-answer">Com as técnicas e produtos modernos que utilizamos, a sensibilidade é mínima ou inexistente. Realizamos uma avaliação prévia para garantir que o clareamento seja seguro para o seu esmalte.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Qual o horário de atendimento?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-answer">Atendemos de segunda a sexta-feira das 9h30 às 18h. Para agendamentos ou dúvidas urgentes, entre em contato pelo WhatsApp — verificamos as mensagens com frequência.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          A clínica fica perto de transporte público?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-answer">Sim! Estamos no centro de São Vicente, na Rua Jacob Emmerich, 453 — de fácil acesso a pé, de ônibus ou de carro, com estacionamentos próximos.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section id="localizacao">
+  <div class="section-tag reveal">Venha nos visitar</div>
+  <h2 class="section-title reveal reveal-delay-1">Fácil de <em>encontrar</em></h2>
+  <div class="location-grid">
+    <div class="location-info reveal">
+      <div class="location-item">
+        <div class="location-icon">📍</div>
+        <div>
+          <div class="location-label">Endereço</div>
+          <div class="location-value">Rua Jacob Emmerich, 453<br>Centro — São Vicente, SP<br>CEP 11310-071</div>
+        </div>
+      </div>
+      <div class="location-item">
+        <div class="location-icon">🕐</div>
+        <div>
+          <div class="location-label">Horário de Atendimento</div>
+          <div class="location-value">Segunda a Sexta: 9h30 às 18h00<br>Sábado e Domingo: Fechado</div>
+        </div>
+      </div>
+      <div class="location-item">
+        <div class="location-icon">📞</div>
+        <div>
+          <div class="location-label">Contato</div>
+          <div class="location-value">
+            <a href="tel:+5513997635203" style="color:var(--terra); text-decoration:none;">(13) 99763-5203</a><br>
+            <a href="https://wa.me/5513997635203" target="_blank" style="color:var(--terra); text-decoration:none;" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <a href="https://maps.google.com/?cid=6224693165361818398" target="_blank" class="btn-secondary" style="display:inline-flex; margin-top:0.5rem;" rel="noopener">
+        Ver no Google Maps →
+      </a>
+    </div>
+    <div class="location-map reveal reveal-delay-2">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.8!2d-46.3858!3d-23.9673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1cd824983799%3A0x566931de3d31336b!2sOral+Sorrir!5e0!3m2!1spt-BR!2sbr!4v1"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Localização Oral Sorrir — Rua Jacob Emmerich, 453, Centro, São Vicente SP">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="section-tag">Pronta para cuidar do seu sorriso?</div>
+  <h2 class="section-title">Agende sua avaliação <em>gratuita</em></h2>
+  <p class="section-sub">Sem compromisso. As Dras. Ingrid e Sarah vão entender sua necessidade e apresentar o melhor plano de tratamento para você.</p>
+  <a href="https://wa.me/5513997635203?text=Olá!+Vim+pelo+site+e+gostaria+de+agendar+minha+avaliação+gratuita." target="_blank" class="cta-btn" rel="noopener">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Agendar pelo WhatsApp agora
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-logo">
+      Oral <span>Sorrir</span>
+      <p>Cuidando do seu sorriso no centro de São Vicente</p>
+    </div>
+    <div class="footer-links">
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#localizacao">Localização</a>
+      <a href="https://wa.me/5513997635203" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Oral Sorrir Clínica Odontológica · Rua Jacob Emmerich, 453 — Centro, São Vicente SP</span>
+    <span>CRO/SP · Todos os direitos reservados</span>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/5513997635203?text=Olá!+Vim+pelo+site+e+gostaria+de+agendar+uma+consulta." target="_blank" class="wa-float" rel="noopener" aria-label="Chamar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+  // ── Reveal on scroll
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  // ── FAQ toggle
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  // ── Mobile menu
+  function toggleMenu() {
+    document.getElementById('navbar').classList.toggle('nav-mobile-open');
+  }
+
+  // ── Nav scroll effect
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').style.boxShadow =
+      window.scrollY > 20 ? '0 4px 24px rgba(42,36,32,0.08)' : 'none';
+  });
+</script>
+
+</body>
+</html>
