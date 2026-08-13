@@ -257,6 +257,10 @@
       position: absolute; inset: 0;
       display: flex; align-items: center; justify-content: center;
     }
+    .hero-img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
     .hero-placeholder {
       width: 100%; height: 100%;
       background: linear-gradient(160deg, #EAF8FC 0%, #CBEFFA 60%, #FFE8C9 100%);
@@ -684,12 +688,7 @@
     </div>
     <div class="hero-right">
       <div class="hero-img-container">
-        <div class="hero-placeholder">
-          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#009FC8" stroke-width="1.2">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
-          </svg>
-          <p>Adicione aqui uma foto<br>da clínica ou da equipe</p>
-        </div>
+        <img class="hero-img" src="assets/dentistas.jpeg" alt="Dentistas da Oral Sorrir">
       </div>
       <div class="hero-card-float">
         <div class="hero-card-stars">★★★★★</div>
